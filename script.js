@@ -4,7 +4,7 @@ import { Api_Key } from "./config.js";
 const Input_locat = document.querySelector("#Location")
 const SearchBtn = document.querySelector(".Search-btn");
 const Result = document.querySelector(".Result")
-const Main=document.querySelector(".main")
+const Main = document.body
 
 Result.textContent="Weather Loading..."
 
